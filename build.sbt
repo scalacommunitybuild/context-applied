@@ -59,6 +59,6 @@ lazy val projectSettings = Seq(
   developers := List(
     Developer("augustjune", "Yura Slinkin", "jurij.jurich@gmail.com", url("https://github.com/augustjune"))
   ),
-  scalaVersion := "2.13.1",
-  crossScalaVersions := Seq(scalaVersion.value, "2.12.10", "2.11.12")
+  scalaVersion := "2.13.12",
+  crossScalaVersions := Seq(scalaVersion.value, "2.12.18", "2.11.12")
 )
